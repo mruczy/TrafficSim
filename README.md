@@ -7,18 +7,19 @@ TrafficSim is a traffic simulator that models vehicle behavior on a road network
 ## Features
 
 - **Collision Detection**: The system automatically detects potential collisions between vehicles and takes preventive actions.  
-  ![Collision Detection](/demo/collision_detection.gif)
+  ![Collision Detection](/gif/collisiondetection.gif)
 
 - **Alternative Route Planning**: In case of obstacles or collisions, vehicles can find a new route to their destination.  
-  ![Route Alternative](/demo/route_alternative.gif)
+  ![Route Alternative](/gif/alternativerouteplanning.gif)
 
 - **Route to Destination**: An algorithm based on a road grid calculates the shortest or optimal route to the designated destination.  
-  ![Pathfinding](/demo/pathfinding.gif)
+  ![Pathfinding](/gif/routetodestination.gif)
 
 - **U-Turn**: Vehicles can perform a U-turn in specific situations, such as when a road is blocked.  
-  ![U-Turn](/demo/u_turn.gif)
+  ![U-Turn](/gif/uturn.gif)
 
-- **Dynamic Traffic Management**: The Traffic Manager randomly spawns vehicles on the map and assigns them destinations. Upon reaching a destination, a new random destination is assigned.  
+- **Dynamic Traffic Management**: The Traffic Manager randomly spawns vehicles on the map and assigns them destinations. Upon reaching a destination, a new random destination is assigned.
+![Traffic Mamagment](/gif/dynamictrafficmanagment.gif)  
 
 ## How the Simulation Works
 
